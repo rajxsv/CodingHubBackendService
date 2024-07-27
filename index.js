@@ -16,7 +16,7 @@ console.log("hi")
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://coding-hub-website.vercel.app/",
     credentials: true,
   })
 );
