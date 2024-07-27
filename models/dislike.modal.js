@@ -1,6 +1,7 @@
 
 import mongoose, { Schema } from "mongoose";
 
+
 const dislikeSchema = new Schema({
   user: {
     type: Schema.Types.ObjectId,
